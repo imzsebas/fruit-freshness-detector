@@ -2,17 +2,17 @@
 
 Detector de frescura de frutas usando Deep Learning con MobileNetV2 y mapas de calor Grad-CAM.
 
-🚀 **[Demo en vivo en Hugging Face Spaces](https://huggingface.co/spaces/ImzSebas/fruit-freshness-detector)**
+**[Demo en vivo en Hugging Face Spaces](https://huggingface.co/spaces/ImzSebas/fruit-freshness-detector)**
 
 ---
 
-## 📋 Descripción
+## Descripción
 
 Este proyecto clasifica imágenes de manzanas, bananas y naranjas como **frescas o dañadas** usando Transfer Learning con MobileNetV2. Incluye visualización con Grad-CAM para mostrar las zonas que el modelo analiza para tomar su decisión.
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Fuente:** [Fruits Fresh and Rotten for Classification](https://www.kaggle.com/datasets/sriramr/fruits-fresh-and-rotten-for-classification) — Kaggle
 - **Imágenes:** 13,599 imágenes
@@ -21,7 +21,7 @@ Este proyecto clasifica imágenes de manzanas, bananas y naranjas como **frescas
 
 ---
 
-## 🤖 Modelos
+## Modelos
 
 | Métrica | CNN Baseline | MobileNetV2 |
 |---|---|---|
@@ -32,7 +32,7 @@ Este proyecto clasifica imágenes de manzanas, bananas y naranjas como **frescas
 
 ---
 
-## 🖥️ Capturas de la app
+## Capturas de la app
 
 ### Gradio
 ![App Gradio](captura_gradio.png)
@@ -62,22 +62,21 @@ streamlit run app_streamlit.py
 
 ---
 
-## 🔍 Grad-CAM
+## Grad-CAM
 
 El proyecto implementa Grad-CAM (Gradient-weighted Class Activation Mapping) para visualizar las zonas que el modelo considera más relevantes al tomar su decisión de clasificación.
 
 ---
 
-## ⚠️ Limitaciones
+## Limitaciones
 
 - Solo clasifica manzanas, bananas y naranjas
 - No funciona bien con iluminación muy baja
 - La fruta debe estar centrada en la imagen
-- No detecta zonas específicas de daño, clasifica la fruta completa
 
 ---
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 - Python 3.11
 - TensorFlow / Keras
@@ -89,7 +88,12 @@ El proyecto implementa Grad-CAM (Gradient-weighted Class Activation Mapping) par
 
 ---
 
-## 📚 Proyecto académico
+## Proyecto académico
 
 Aprendizaje Computacional — Ingeniería de Sistemas  
 Prof. Oswaldo Velez Lang, PhD
+
+Presentado por : 
+Sebastian Nuñez Berrio
+Eduardo Mercado pinto
+Jaider Muskus Sibaja
