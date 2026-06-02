@@ -29,7 +29,7 @@ demo = gr.Interface(
         gr.Label(num_top_classes=6, label="Probabilidades"),
         gr.Textbox(label="Resultado")
     ],
-    title="🍎 Detector de Frescura de Frutas",
+    title="Detector de Frescura de Frutas",
     description="Sube una imagen de manzana, banana o naranja para detectar si está fresca o dañada."
 )
 

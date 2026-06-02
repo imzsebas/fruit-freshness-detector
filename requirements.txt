@@ -1,7 +1,6 @@
-tensorflow==2.21.0
-gradio==6.15.0
-streamlit==1.45.1
+gradio
+tensorflow-cpu
 pillow
 numpy
-opencv-python
+opencv-python-headless
 tf-keras-vis

@@ -8,7 +8,7 @@ model = load_model('modelo_frutas.h5')
 CLASES = ['freshapples', 'freshbanana', 'freshoranges',
           'rottenapples', 'rottenbanana', 'rottenoranges']
 
-st.title("🍎 Detector de Frescura de Frutas")
+st.title("Detector de Frescura de Frutas")
 st.write("Sube una imagen de manzana, banana o naranja para detectar si está fresca o dañada.")
 
 imagen = st.file_uploader("Sube una imagen", type=["jpg", "jpeg", "png"])
