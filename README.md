@@ -94,6 +94,6 @@ Aprendizaje Computacional — Ingeniería de Sistemas
 Prof. Oswaldo Velez Lang, PhD
 
 Presentado por : 
-Sebastian Nuñez Berrio
-Eduardo Mercado pinto
-Jaider Muskus Sibaja
+Sebastian Nuñez Berrio - 
+Eduardo Mercado pinto - 
+Jaider Muskus Sibaja - 
