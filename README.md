@@ -32,17 +32,27 @@ Este proyecto clasifica imágenes de manzanas, bananas y naranjas como **frescas
 
 ---
 
-## Capturas de la app
+## Métricas adicionales
 
-### Gradio
-![App Gradio](captura_gradio.png)
+### Matriz de Confusión
+![Matriz de Confusión](imagenes/matriz_confusion.png)
 
-### Streamlit
-![App Streamlit](captura_streamlit.png)
+### Curvas ROC-AUC
+![ROC-AUC](imagenes/roc_auc.png)
 
 ---
 
-## ⚙️ Instalación local
+## Capturas de la app
+
+### Gradio
+![App Gradio](imagenes/captura_gradio.png)
+
+### Streamlit
+![App Streamlit](imagenes/captura_streamlit.png)
+
+---
+
+## Instalación local
 
 ```bash
 git clone https://github.com/imzsebas/fruit-freshness-detector.git

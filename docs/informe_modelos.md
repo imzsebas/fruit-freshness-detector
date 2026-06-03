@@ -183,3 +183,24 @@ como Hugging Face Spaces con CPU Basic.
 
 5. MobileNetV2 fue seleccionado como modelo final para producción por su
    combinación de alto rendimiento, tamaño reducido y velocidad de inferencia.
+
+---
+
+## 9. Matriz de Confusión
+
+![Matriz de Confusión](imagenes/matriz_confusion.png)
+
+---
+
+## 10. Curvas ROC-AUC
+
+| Clase | AUC |
+|---|---|
+| freshapples | 1.000 |
+| freshbanana | 1.000 |
+| freshoranges | 1.000 |
+| rottenapples | 0.999 |
+| rottenbanana | 1.000 |
+| rottenoranges | 0.999 |
+
+![Curvas ROC](imagenes/roc_auc.png)
