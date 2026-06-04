@@ -1,4 +1,4 @@
-# 🍎 Fruit Freshness Detector
+# Fruit Freshness Detector
 
 Detector de frescura de frutas usando Deep Learning con MobileNetV2 y mapas de calor Grad-CAM.
 
